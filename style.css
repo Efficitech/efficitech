@@ -34,7 +34,7 @@
   /* Menu Button */
   .menu-btn {
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     right: 20px;
     top: 20px;
     height: 50px;
