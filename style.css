@@ -16,12 +16,12 @@
 
   /* Wrapper */
 .wrapper {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: 2;
     background: linear-gradient(45deg, #bfcfff 0%, #bfcfff 45%, #6b86b4 100%);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
@@ -139,6 +139,14 @@
     height: 100%;
     color: #fff;
   }
+  .section-1 .title{
+    transition: all 100ms;
+    font-size: 100px;
+
+  }
+  .section-1 .title:hover{
+    font-size: 110px;
+  }
   
   .content .title {
     color: #4e5a74;
@@ -160,6 +168,8 @@
     color: #4e5a74;
     text-align: center;
     padding: 40px 20px;
+    z-index: -5;
+
   }
   
   .section-2 .title {

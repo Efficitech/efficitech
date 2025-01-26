@@ -16,5 +16,11 @@ document.querySelectorAll('.read-more').forEach((button) => {
         button.textContent = 'Read More'; // Change button text
       }
     });
-  });
+});
   
+
+document.querySelectorAll(".wrapper-link").forEach(link => {
+  link.addEventListener("click", () => {
+    document.querySelector("#active").checked = false;
+  });
+});
